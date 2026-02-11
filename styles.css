@@ -34,6 +34,8 @@
   .row.two{grid-template-columns:1fr 1fr;gap:12px}
   label{font-size:.9rem;color:var(--muted)}
   input{
+    width: 100%;
+    max-width: 100%;
     padding:10px 12px;
     border-radius:12px;
     border:1px solid var(--line);
